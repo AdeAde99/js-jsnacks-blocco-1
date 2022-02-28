@@ -67,6 +67,25 @@ console.log(sum);
 
 
 
+/*Snack 1.4*/
+/*
+const arrListNames = ['a','b','c','d','e'];
+const name = prompt('Inserisci il tuo nome');
+let found = false;
+
+for (let i = 0; i < arrListNames.length; i++) {
+    if (arrListNames[i] == name) {
+        found = true;
+    }
+}
+
+if(found) {
+    console.log('Puoin entrare');
+} else {
+    console.log('Non puoi entrare');
+}
+*/
+
 
 
 
