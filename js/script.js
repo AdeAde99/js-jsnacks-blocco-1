@@ -86,6 +86,21 @@ if(found) {
 }
 */
 
+/*Snack 1.5*/
+/*
+let arrPari = [];
 
+for (let i = 0; i < 6; i++) {
+    let num = parseInt(prompt('Inserisci un numero'));
+    if (num % 2) {
+        
+    } else {
+        arrPari.push(num);
+    }
+
+}
+
+console.log(arrPari);
+*/
 
 
