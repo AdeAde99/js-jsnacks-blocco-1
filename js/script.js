@@ -12,16 +12,3 @@ if (num1 > num2) {
 }
 */
 
-/*Snack 1.2*/
-
-const word1 = prompt('word1');
-const word2 = prompt('word2');
-const output = 
-
-/*
-let arrNum = [];
-
-for (i = 0; i < 10; i++) {
-
-}
-*/
