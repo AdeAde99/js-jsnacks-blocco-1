@@ -12,6 +12,9 @@ if (num1 > num2) {
 }
 */
 
+
+
+
 /*Snack 1.2*/
 /*
 const word1 = prompt('Parola uno');
@@ -24,4 +27,22 @@ if (word1.length > word2.length) {
     console.log(word1);
     console.log(word2);
 }
+*/
+
+
+
+
+/*Snack 1.3*/
+/*Senza array*/
+/*
+let num;
+let sum = 0;
+let i = 0;
+
+for (i = 0; i < 10; i++) {
+    num = parseInt(prompt('Inserire un numero'));
+    sum = sum + num;
+}
+
+console.log(sum);
 */
