@@ -104,3 +104,19 @@ console.log(arrPari);
 */
 
 
+
+
+/*Snack 1.6*/
+/*
+let numero = prompt('Inserisci un numero con più cifre');
+let sum = 0;
+
+for (i = 0; i < numero.length; i++) {
+    sum = sum + parseInt(numero[i]);
+}
+
+console.log(sum);
+*/
+
+
+
