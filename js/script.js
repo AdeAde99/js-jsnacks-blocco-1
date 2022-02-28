@@ -12,3 +12,16 @@ if (num1 > num2) {
 }
 */
 
+/*Snack 1.2*/
+/*
+const word1 = prompt('Parola uno');
+const word2 = prompt('Parola due');
+
+if (word1.length > word2.length) {
+    console.log(word2);
+    console.log(word1);
+} else {
+    console.log(word1);
+    console.log(word2);
+}
+*/
