@@ -46,3 +46,27 @@ for (i = 0; i < 10; i++) {
 
 console.log(sum);
 */
+
+
+/*Con array*/
+/*
+const arrDieciNum = [];
+sum = 0;
+
+for (let i = 0; i < 10; i++) {
+    arrDieciNum.push(parseInt(prompt('Inserisci un numero')));
+}
+console.log(arrDieciNum);
+
+for (let index = 0; index < arrDieciNum.length; index++) {
+    sum = sum + arrDieciNum[index];
+}
+console.log(sum);
+*/
+
+
+
+
+
+
+
