@@ -118,5 +118,18 @@ for (i = 0; i < numero.length; i++) {
 console.log(sum);
 */
 
+/*Snack 1.9*/
+/*
+let sum = 0
+
+for (let i = 1; i <=10; i++) {
+    sum = sum + i;
+    console.log(i);
+}
+
+let media = sum / 10;
+console.log(sum);
+console.log(media);
+*/
 
 
