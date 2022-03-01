@@ -133,3 +133,61 @@ console.log(media);
 */
 
 
+/*Snack 2.1*/
+/*Con ciclo for*/
+/*
+let sum = 0;
+for (let i = 0; i < 5; i++) {
+    let number = parseInt(prompt('Inserisci un numero'));
+    sum += number;
+}
+console.log(sum);
+*/
+
+
+/*Ciclo while*/
+/*
+let sum = 0;
+let i = 0;
+
+while (i < 5) {
+    let number = parseInt(prompt('Inserisci un numero'));
+    sum += number;
+    i++;
+}
+*/
+
+
+
+
+/*Snack 2.2*/
+/*
+let number = parseInt(prompt('Inserisci un numero'));
+
+if (isNaN(number)) {
+    alert('Non hai inserito un unmero');
+} else {
+    if (number % 2 == 0) {
+        console.log(number);
+    } else {
+        console.log(number + 1);
+    }
+}
+*/
+
+/*Snack 2.3*/
+/*
+const arrNomi = ['a','b','c','d','e']
+const arrCognomi = ['1','2','3','4','5']
+ 
+for (i = 0; i < 3; i++) {
+const indexRandomNome = Math.floor(Math.random() * arrNomi.length);
+const nome = arrNomi [indexRandomNome];
+
+const indexRandomCognome = Math.floor(Math.random() * arrCognomi.length);
+const cognome = arrCognomi [indexRandomCognome];
+
+const NomeComposto = nome + ' ' + cognome;
+console.log(NomeComposto);
+}
+*/
