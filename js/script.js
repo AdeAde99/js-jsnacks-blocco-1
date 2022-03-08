@@ -191,3 +191,89 @@ const NomeComposto = nome + ' ' + cognome;
 console.log(NomeComposto);
 }
 */
+
+
+/*Snack*/
+
+const arrAuto = [
+    {
+        'marca' : 'a',
+        'modello' : '1',
+        'alimentazione' : 'benzina'
+    },
+
+    {
+        'marca' : 'b',
+        'modello' : '2',
+        'alimentazione' : 'benzina'
+    },
+
+    {
+        'marca' : 'c',
+        'modello' : '3',
+        'alimentazione' : 'benzina'
+    },
+
+    {
+        'marca' : 'd',
+        'modello' : '4',
+        'alimentazione' : 'metano'
+    },
+
+    {
+        'marca' : 'e',
+        'modello' : '5',
+        'alimentazione' : 'elettrico'
+    },
+
+    {
+        'marca' : 'f',
+        'modello' : '6',
+        'alimentazione' : 'gpl'
+    },
+
+    {
+        'marca' : 'g',
+        'modello' : '7',
+        'alimentazione' : 'diesel'
+    },
+
+    {
+        'marca' : 'h',
+        'modello' : '8',
+        'alimentazione' : 'diesel'
+    },
+
+    {
+        'marca' : 'i',
+        'modello' : '9',
+        'alimentazione' : 'diesel'
+    },
+
+    {
+        'marca' : 'j',
+        'modello' : '10',
+        'alimentazione' : 'diesel'
+    }
+];
+
+let arrAutoBenzina = [];
+let arrAutoDiesel = [];
+let arrAutoAltro = [];
+
+for (let i = 0; i < arrAuto.length; i++) {
+    let auto = arrAuto[i];
+
+    if (auto.alimentazione == 'benzina') {
+        arrAutoBenzina.push(auto);
+    } else if (auto.alimentazione == 'diesel') {
+        arrAutoDiesel.push(auto);
+    } else {
+        arrAutoAltro.push(auto);
+    }
+}
+
+console.log(arrAuto);
+console.log(arrAutoBenzina);
+console.log(arrAutoDiesel);
+console.log(arrAutoAltro);
